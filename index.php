@@ -17,11 +17,8 @@
 </head>
 <body>
     <header>
-      
-        
-        <h1><img src="img\profile_pic.jpg" id="nav_picture" id="nav_pic_container"alt=""> Jaron van Well</h1>
-      
-      
+             
+        <h1><img src="img\profile_pic.jpg" id="nav_picture" id="nav_pic_container"alt="profile picutre"> Jaron van Well</h1>  
         <nav id="navbar" >
             <ul>
              <li><a href="">gdfgd</a></li>
