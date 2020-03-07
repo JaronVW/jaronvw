@@ -11,6 +11,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/base_style.css">
+    <script src="https://kit.fontawesome.com/2791852a86.js" crossorigin="anonymous"></script>
     <title>jaronvw</title>
 
 </head>
@@ -45,7 +46,15 @@
         </div>
     </main>
     <footer>
-        
+    <div id="socialmedia">
+            <p>@jaron van well 2020</p>
+            
+                <i class="fab fa-github-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fas fa-envelope"></i>
+           
+          
+        </div>
     </footer>
 </body>
 </html>

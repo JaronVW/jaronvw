@@ -1,6 +1,7 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=BioRhyme|Space+Mono&display=swap');
 @import "navbar.css";
+@import "footer.css";
 
 :root {
     --main-bg-color: rgba(41, 47, 54, 1);
@@ -22,16 +23,33 @@ h1 h2 h3 h4 {
     font-family: 'BioRhyme', serif;
 }
 
-h1 {
-    font-size: 2.5em;
+@media only screen and (max-width: 760px) {
+  h1 {
+      font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+}
 }
 
-h2 {
-    font-size: 1.9em;
-}
+@media only screen and (min-width: 760px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.9em;
+    }
+  }
+
+
+
+
 
 p {
     font-size: 1em;
+}
+article {
+    width: 80%;
 }
 
 header,
