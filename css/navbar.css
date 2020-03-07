@@ -1,0 +1,56 @@
+@media only screen and (min-width: 760px) {
+    #navbar ul {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 2%;
+
+    }
+
+    header #nav_picture {
+        display: span;
+        width: 75px;
+        border-radius: 4px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+    header #nav_picture {
+        display: none;
+
+    }
+}
+
+#navbar li {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4px;
+}
+
+#navbar {
+    margin-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+#navbar li {
+    background: var(--green2);
+    padding: var(--main-padding);
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+#navbar a {
+    color: var(--main-bg-color);
+    text-decoration: none;
+}
+
+#navbar li:hover {
+    background: var(--green1);
+    transition: 0.2s;
+    color: var(--green3);
+    border-radius: 10px;
+
+}

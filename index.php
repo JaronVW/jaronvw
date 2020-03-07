@@ -16,14 +16,18 @@
 </head>
 <body>
     <header>
-        <h1>Jaron van Well</h1>
-        <nav>
+      
+        
+        <h1><img src="img\profile_pic.jpg" id="nav_picture" id="nav_pic_container"alt=""> Jaron van Well</h1>
+      
+      
+        <nav id="navbar" >
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+             <li><a href="">gdfgd</a></li>
+             <li><a href="">dgdgfdg</a></li>
+             <li><a href="">dg</a></li>
+             <li><a href="">sfsefffes</a></li>
+             <li><a href="">esffsfe</a></li>
             </ul>
         </nav>
     </header>
