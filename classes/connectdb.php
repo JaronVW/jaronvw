@@ -1,7 +1,7 @@
 <?php
 require_once "db_cred.php";
 
-class Connect_db extends db_cred
+class Connectdb extends db_cred
 {
     protected $db_host;
     protected $db_name;
