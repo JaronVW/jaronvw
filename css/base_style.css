@@ -13,7 +13,9 @@
 }
 
 html {
-    background: var(--main-bg-color);
+   background : url(../img/wallpaper.png)  no-repeat center center fixed;
+   background-size: cover;
+
     color: var(--main-txt-color);
     font-family: 'Space Mono', monospace;
 }
@@ -23,22 +25,24 @@ h1 h2 h3 h4 {
 }
 
 @media only screen and (max-width: 760px) {
-  h1 {
-      font-size: 2em;
-  }
-  h2 {
-    font-size: 1.5em;
-}
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.9em;
+    }
 }
 
 @media only screen and (min-width: 760px) {
     h1 {
         font-size: 2.5em;
     }
+
     h2 {
         font-size: 1.9em;
     }
-  }
+}
 
 
 
@@ -47,6 +51,7 @@ h1 h2 h3 h4 {
 p {
     font-size: 1em;
 }
+
 article {
     width: 80%;
 }
@@ -62,3 +67,22 @@ footer {
     border-radius: 4px;
 
 }
+
+
+@media only screen and (max-width: 829px) {
+
+    #me {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 830px) {
+  
+
+    #me {
+        width: 300px;
+    }
+}
+
+
+
