@@ -36,7 +36,7 @@ class Connectdb extends db_cred
             ini_set("error_log", "log/db.log");
             error_log($e->getMessage());
             // error log
-           return "Connection failed: Something went wrong";
+           echo "Connection failed: Something went wrong";
         }
     
     }
